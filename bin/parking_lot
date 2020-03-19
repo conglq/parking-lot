@@ -1,0 +1,3 @@
+#!/bin/bash
+
+node parking_lot/index.js $1

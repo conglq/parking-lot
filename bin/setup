@@ -1,0 +1,23 @@
+#!/bin/bash
+
+echo 'Setup Parking Lot V2.0.0'
+echo 'Node Version:'
+node -v
+echo 'NPM Version:'
+npm -v
+
+installDep() {
+  echo 'Install devDependencies by NPM'
+  cd ./parking_lot
+  npm install
+}
+
+installDep
+
+runTest() {
+  echo 'Run Test by Mocha'
+  cd ./parking_lot
+  npm test
+}
+
+runTest
