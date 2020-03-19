@@ -4,8 +4,11 @@ This is ParkingLot source code for interview.
 
 ## Directory Structure
 **/** : root
+
 **/parking_lot**: source code
+
 **/parking_lot/tests**: unit test file run by mocha
+
 **/bin**: bash scripts file to run program
 
 ## Environment requirement
